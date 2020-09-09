@@ -1,3 +1,6 @@
+"""
+copyright by team19devs. Telegram @unknown_org
+"""
 import requests, hashlib, sys
 
 def request_api_data(query_sign):	
@@ -27,7 +30,7 @@ def main(args):
 			print(f"Your password was found {count}. I highly recommend to alter it")
 		else:
 			print(f"{len(password)*'*'} was NOT found on our database, Continue!")
-	return 'endep-up process'
+	return 'endep-up process ©️by team19devs'
 
 if __name__ == "__main__":
 	sys.exit(main(sys.argv[1:]))
